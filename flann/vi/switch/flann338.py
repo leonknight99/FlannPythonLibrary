@@ -2,7 +2,7 @@ from flann.vi import FlannProgrammable
 
 
 class Switch338(FlannProgrammable):
-    '''Class for Flann's 338 programmable switch - Currently UNTESTED'''
+    '''Class for Flann's 338 programmable switch - Currently UNTESTED no error handling for 2-way'''
     def __init__(self, address: str, tcp_port: int, *args, **kwargs):
         super().__init__(is_serial=False, *args, **kwargs)
 

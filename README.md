@@ -1,6 +1,12 @@
 # Flann Programmable Device's Python Libary
 
+## Description
+
+![flann_logo](flann_logo.svg)
+
 Python libary to connect to Flann's programmable instruments and standardise the command structure.
+
+[Home Page](http://www.flann.com)
 
 ## Examples
 
@@ -28,19 +34,15 @@ atten.position = 500  # Sets the position to 500 steps
 print(atten.position())  # get the current position steps value
 ```
 
-## Applications
-Software to control Flann's programmable devices. These currently include:
+## Instruments
+Software to control Flann's programmable instruments. These currently include:
 
-- Attenuator Application (inspired by the 625 layout)
+- Attenuators
     - 024 variable attenuator
+    - 624 programmable RVA (Rotary Vane Attenuators)
     - 625 programmable RVA (Rotary Vane Attenuators)
 
-- Switch Application with IMS 2025 demo
+- Switch
     - 337 dual-switch controller
+    - 338 POE switch
 
-- Switch Counter
-    - 27337 IMS 2025 demo
-
-Future plans:
-- 624 programmable RVA (Rotary Vane Attenuators)
-- 338 switch
