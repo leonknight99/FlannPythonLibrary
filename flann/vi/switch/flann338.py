@@ -16,37 +16,37 @@ class Switch338(FlannProgrammable):
     @property
     def id(self):
         '''Instrument ID string'''
-        self.write('IDN?\n')
+        self.write('IDN?\r\n')
         return self.read
     
     @property
     def instrument_status(self):
         '''Instrument status'''
-        self.write('*STB?\n')
+        self.write('*STB?\r\n')
         return self.read
     
     @property
     def position(self):
         '''Current selected switch position'''
-        self.write(f'POS?\n')
+        self.write(f'POS?\r\n')
         return self.read()
     
     def position1(self):
         '''Selected switch position 1'''
-        self.write(f'POS1\n')
+        self.write(f'POS1\r\n')
         self.read
 
     def position2(self):
         '''Selected switch position 2'''
-        self.write(f'POS2\n')
+        self.write(f'POS2\r\n')
         self.read
 
     def position3(self):
         '''Selected switch position 3'''
-        self.write(f'POS3\n')
+        self.write(f'POS3\r\n')
         self.read
 
     def position4(self):
         '''Selected switch position 4'''
-        self.write(f'POS4\n')
+        self.write(f'POS4\r\n')
         self.read
