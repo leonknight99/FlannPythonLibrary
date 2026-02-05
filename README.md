@@ -2,7 +2,7 @@
 
 ## Description
 
-![flann_logo](flann_logo.svg)
+<img src="flann_logo.svg" alt="drawing" height="100"/>
 
 Python libary to connect to Flann's programmable instruments and standardise the command structure.
 
