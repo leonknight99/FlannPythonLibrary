@@ -1,8 +1,8 @@
-# Flann Programmable Device's Python Libary
-
-## Description
+ # Flann Programmable Device's Python Libary
 
 <img src="flann_logo.svg" alt="drawing" width="100"/>
+
+## Description
 
 Python libary to connect to Flann's programmable instruments and standardise the command structure.
 
